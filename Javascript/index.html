@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .titulo-tiempo{
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: .5rem;
+        }
+        .contenedor{
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: skyblue;
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+            padding: .5rem 1rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="div1">
+        Soy el texto del Div1
+    </div>  
+
+    <p class="parrafo1">
+        Texto dentro del parrafo
+    </p>
+    <p class="parrafo1">
+        Texto dentro del parrafo
+    </p>
+    <p class="parrafo1">
+        Texto dentro del parrafo
+    </p>
+
+    <button id="boton">Pulsa el boton</button>
+
+    <h2 class="titulo-tiempo">Hora actual</h2>
+    <div class="contenedor">
+        <div class="tiempo">00:00:00</div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

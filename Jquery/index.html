@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .titulo{
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        button{
+            font-size: 1.5rem;
+            border: 1px solid #1f1fcb;
+            background-color: #1f1fcb;
+            color: #fff;
+            padding: .5rem 1rem;
+            border-radius: .25rem;
+        }
+
+        #btnMostrar{
+            margin-top: 1rem;
+            border: 2px solid black;
+            background-color: #4bcf46;
+            color: #111;
+            display: inline;
+            cursor: pointer;
+        }
+        #parrafo{
+            display: none;
+            font-size: 1.5rem;
+            margin-left: 1rem;
+        }
+        #btnMostrar:hover{
+            background-color: #84d081;
+            color: #111;
+        }
+
+        .borde{
+            border: 1px dashed #5c1f9a;
+        }
+
+        .parrafo1{
+            cursor: pointer;
+        }
+
+        #h2mostrar{
+            cursor: pointer;
+        }
+        #parrafo3{
+            display: none;
+            font-size: 1.2rem;
+            padding: .5rem;
+            background-color: skyblue;
+        }
+
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    
+    <p class="parrafo">Este es el texto</p>
+    <p class="parrafo">Este es el texto 2</p>
+
+    <span>Texto del span</span><br>
+    <a href="https://google.pe" title="Google">Google</a><br>
+
+    <button id="btnmostrar">Boton mostrar</button>
+    <button id="btnocultar">Boton ocultar</button>
+    <p id="texto" style="display: none;">Texto oculto</p>
+
+    <br>
+    <button id="btnMostrar">Mostrar</button>
+    <p id="parrafo">Texto oculto</p>
+
+    <br>
+    <button id="btn" style="margin-top: 3rem; cursor: pointer;"></button>
+    <p id="texto1">Soy un parrafo</p>
+
+    <br>
+
+    <p class="parrafo2">Parrafo 1</p>
+    <p class="parrafo2">Parrafo 2</p>
+
+    <h2 id="h2mostrar">Pulsar</h2>
+    <p id="parrafo3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ducimus. Iusto sequi beatae maiores! Veniam labore unde, magnam cum in esse ratione eligendi necessitatibus dignissimos, eius, harum reiciendis enim incidunt.</p>
+
+    <script src="selector-atributo.js"></script>
+</body>
+</html>
